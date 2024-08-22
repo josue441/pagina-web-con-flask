@@ -1,0 +1,18 @@
+{%include 'header.html'%}
+<h1>Bienvenido</h1>
+<h2>Hola esto es una pagina para aprender</h2>
+
+
+<div class="content">
+    <h2>Hola, en esta página puedes aprender un par de cosas interesantes sobre las dependencias tecnológicas.</h2>
+    <b>y un generador de Contraseñas</b>
+    <div class="button-container">
+        <br>
+        <a href="{{url_for('facts')}}" class="btn btn-primary">Dato RANDOM</a>
+        <a href="{{url_for('mostrar_contraseña')}}" class="btn btn-secondary">Generar Contraseña</a>
+    </div>
+</div>
+
+
+
+{%include 'footer.html'%}
